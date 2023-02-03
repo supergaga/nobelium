@@ -1,9 +1,10 @@
 const BLOG = {
   title: 'Supergaga',
   author: 'shaonan',
+  authorAvatar: '/pic.jpeg',
   email: 'shaonant@gmail.com',
   link: 'https://www.github.com/supergaga',
-  description: 'This gonna be an awesome website.',
+  description: 'be somebody',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -11,7 +12,7 @@ const BLOG = {
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2023, // If leave this empty, current year will be used.
-  postsPerPage: 7,
+  postsPerPage: 10,
   sortByDate: true,
   showAbout: false,
   showArchive: true,
